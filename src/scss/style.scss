@@ -740,10 +740,12 @@ a {
 			border: none;
 		}
 	}
+		&::placeholder {
+			color: $color_2;
+	}
+
 }
-&::placeholder {
-	color: $color_2;
-}
+
 #email {
 	position: relative;
 }
